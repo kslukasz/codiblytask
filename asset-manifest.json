@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/codiblytask/static/css/main.90b07692.css",
-    "main.js": "/codiblytask/static/js/main.841cb68e.js",
+    "main.js": "/codiblytask/static/js/main.9458ab22.js",
     "static/js/787.dcac25be.chunk.js": "/codiblytask/static/js/787.dcac25be.chunk.js",
     "index.html": "/codiblytask/index.html",
     "main.90b07692.css.map": "/codiblytask/static/css/main.90b07692.css.map",
-    "main.841cb68e.js.map": "/codiblytask/static/js/main.841cb68e.js.map",
+    "main.9458ab22.js.map": "/codiblytask/static/js/main.9458ab22.js.map",
     "787.dcac25be.chunk.js.map": "/codiblytask/static/js/787.dcac25be.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.90b07692.css",
-    "static/js/main.841cb68e.js"
+    "static/js/main.9458ab22.js"
   ]
 }
