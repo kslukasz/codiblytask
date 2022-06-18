@@ -1,0 +1,28 @@
+table {
+    border-collapse: collapse;
+    animation: animation 1s linear;
+}
+th , td{
+    border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  animation: animation 500ms linear;
+}
+thead{
+    background-color: rgb(57, 57, 188);
+    color: white;
+}
+.id{
+    width: 30px;
+    text-align: center;
+}
+.name{
+    min-width: 180px;
+}
+.year{
+    width: 40px;
+}
+@keyframes animation {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}

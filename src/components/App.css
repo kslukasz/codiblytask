@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  scroll-behavior: smooth;
+  font: normal normal normal 16px Montserrat;
+}
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+}
+.cont_horizontal {
+  display: flex;
+  flex-direction: column;
+}
+.cont_vertical {
+  display: flex;
+  flex-direction: row;   
+}
+hr{
+  width:100%;  
+  border-style: none;
+  height: 1px;
+  background: linear-gradient(to right , rgba(37, 40, 60, 0),rgb(37, 40, 60),rgba(37, 40, 60, 0));
+}
+footer{
+  justify-content: center;
+  height: 220px;
+}
+.content{
+  align-items: center;
+  flex-grow: 1;
+}
+.fontBig{
+  font-size: 22px;  
+}
+.padding10{
+  padding: 10px;
+}
+button{
+  margin:0;
+  padding:0;
+  border:none;
+  background-color: rgba(255, 255, 255, 0);
+  width: 80px;
+  height: 60px;  
+  box-shadow: 0 0 5px 1px rgb(57, 57, 188);
+  transition-duration: 300ms;
+}
+button:hover{
+  cursor: pointer;
+  box-shadow: 0 0 5px 2px orange;
+  transition-duration: 300ms;
+}
+button:disabled{
+  box-shadow: 0 0 5px 1px grey;
+  cursor:default;
+}
+footer a{ 
+  height: 40px;  
+  margin: 20px;
+  text-decoration: none;
+  color: black;
+}
+.numberPage{
+  height: 40px;  
+  width:55px;
+  margin: 20px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 55px;
+}
+.material-symbols-outlined{
+  font-size: 45px;
+  font-weight: 600;
+}
