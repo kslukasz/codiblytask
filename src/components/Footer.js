@@ -11,11 +11,11 @@ function Footer() {
 
     return (
         <>
-            <NavLink to={`/${currentPage - 1}`}><button className='navigationButton' disabled={disminus ? true : ""} onClick={() => changePage(-1)}>
+            <NavLink to={`/${disminus ? currentPage : currentPage - 1}`}><button className='navigationButton' disabled={disminus ? true : ""} onClick={() => changePage(-1)}>
                 <span className="material-symbols-outlined">arrow_back
                 </span></button></NavLink>
             <div className='numberPage'>{`${currentPage}\u00a0/\u00a0${Math.ceil(dataLength / numberOfProducts)}`}</div>
-            <NavLink to={`/${currentPage + 1}`}><button className='navigationButton' disabled={displus ? true : ""} onClick={() => changePage(1)}>
+            <NavLink to={`/${displus ? currentPage : currentPage + 1}`}><button className='navigationButton' disabled={displus ? true : ""} onClick={() => changePage(1)}>
                 <span className="material-symbols-outlined">arrow_forward</span></button></NavLink>
         </>
     );

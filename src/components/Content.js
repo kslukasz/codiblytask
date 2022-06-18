@@ -49,9 +49,11 @@ function Content() {
     && Number(params.id) > 0 
     && params.id && Number(params.id)!=="NaN" ){
     setCurrentPage(Number(params.id));
-    } else {window.history.replaceState({}, "",currentPage)}
+    } else {
+           window.history.replaceState({}, "",process.env.PUBLIC_URL+"/"+currentPage)
+    }
   },[]);
-  
+
   return (
     <div className='cont_vertical'>
       {table}
