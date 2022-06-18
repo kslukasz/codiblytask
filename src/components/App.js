@@ -63,7 +63,7 @@ function App() {
   return (
 
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <AppContext.Provider value={{
           input: input,
           chandleInput: chandleInput,
